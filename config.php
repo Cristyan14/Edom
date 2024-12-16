@@ -1,9 +1,9 @@
 <?php
     // Configurações do banco de dados
-    $dbHost = 'localhost:3306'; // Endereço do servidor de banco de dados MySQL
-    $dbUsername = 'root';
+    $dbHost = ''; // Endereço do servidor de banco de dados MySQL
+    $dbUsername = '';
     $dbPassword = '';
-    $dbName = 'edom';
+    $dbName = '';
 
     // Cria a conexão com o banco de dados
     $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
