@@ -35,11 +35,11 @@ if (isset($_POST['submit'])) {
             // Removido o código de envio de e-mail
             sleep(7);
             if ($lote == 1) {
-                header("Location: https://mpago.la/32m31y6");
+                header("Location: SitePagamento");
             } elseif ($lote == 2) {
-                header("Location: https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=547002861-677f20e4-903d-4e0d-a597-e1df9619fd20");
+                header("Location: hSitePagamento");
             } elseif ($lote == 3) {
-                header("Location: https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=547002861-9fd5f3e1-528a-4dfc-a2de-e6c3e71b22a9");
+                header("Location: SitePagamento");
             }
             exit();
         } else {
