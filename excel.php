@@ -5,10 +5,10 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 // Configurações do banco de dados
-$servername = "localhost:3306";
-$username = "root";
+$servername = "";
+$username = "";
 $password = ""; // Se você configurou uma senha para o usuário root, adicione-a aqui
-$dbname = "edom";
+$dbname = "";
 
 // Cria a conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
